@@ -37,7 +37,7 @@ namespace BinaryTree
                 }
                 else
                 {
-                    AddRec(root.left, newNode);
+                    AddRec(root.left, data, newNode);
                 }
             }
             else
@@ -48,7 +48,7 @@ namespace BinaryTree
                 }
                 else
                 {
-                    AddRec(root.right, newNode);
+                    AddRec(root.right, data, newNode);
                 }
             }
         }
